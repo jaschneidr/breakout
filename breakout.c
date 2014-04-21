@@ -101,8 +101,6 @@ int main(void)
     }
     while (lives > 0 && bricks > 0)
     {
-        // TODO/////////////////////////////////////////////////////////////////
-        //all work goes in this while loop apparently//////////////////////////
 
         // compel paddle to follow mouse along x-axis by listening for mouse_event
         GEvent paddlemove = getNextEvent(MOUSE_EVENT);
